@@ -1,0 +1,5 @@
+Options All -Indexes
+RewriteEngine On
+
+RewriteBase /BRIEF_5/
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?page=$1

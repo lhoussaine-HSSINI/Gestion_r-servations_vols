@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f5fd !important;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: #203152 !important;
+}
+
+header {
+    background: rgb(255, 255, 255) !important;
+    height: 55px !important;
+    border-bottom: 1px solid #6c757d !important;
+}
+
+.navbar {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea {
+    font-family: Roboto, Sans-Serif !important;
+    font-weight: 200 !important;
+}
+
+
+/* logo */
+
+.container .navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-link img {
+    width: 14px;
+    height: 14px;
+    color: beige !important;
+}
+
+
+/* card vol */
+
+.card-body {
+    /* background-color: #f3f5fd !important; */
+    padding: 0.5rem 0.5rem !important;
+}
+
+.aller {
+    color: #ffc107;
+    margin: -9px 0px 0px 0px;
+    background: #364049;
+    width: 100px;
+    margin-left: -17px;
+    border-radius: 5px 0 0 0;
+}
+
+.aller em {
+    margin: 3.5px;
+}
+
+.row .date {
+    margin: 6px 0 0 0;
+}
+
+small {
+    color: #4D6F93;
+    font-size: 13px;
+}
+
+.col-4 strong {
+    vertical-align: top;
+    color: #203152;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+.col-6 hr {
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.btn-tafasil {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #7799be;
+    color: #4d6f93;
+}
+
+.btn-tafasil :hover {
+    box-shadow: inset 0 0 0 2px #7799be;
+    color: #4d9368;
+}
+
+.price {
+    /* color: #842029; */
+    color: #7f0510;
+}
+
+
+/* page vol reservation */
+
+#form {
+    background: #e9ecef;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.size-action {
+    height: 26px;
+    width: 26px;
+}
+
+.table th {
+    font-size: 11px !important;
+}
+
+#card-body {
+    padding: 0rem 0rem !important;
+}
+
+
+/* card information reservation  */
+
+.surce-distination-info {
+    background: aliceblue;
+    height: 45px;
+}
+
+#nombre_place {
+    color: #ad0303 !important;
+}
+
+.line-in-donne-de-vol {
+    color: #4d6f93;
+}
+
+.font-size-reservation {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+::selection {
+    background: #FEC524;
+    color: #fff;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.after_span span {
+    /* font-size: xx-small; */
+    font-size: 9px;
+}
+
+.card-footer a {
+    font-size: smaller !important;
+}
+
+
+/* start class button add of reservation  passagers*/
+
+.bg_btn_ajouter_passager {
+    color: #0b0b0b!important;
+    background-color: #4CAF50 !important;
+    font-size: 14px !important;
+}
+
+
+.bg_btn_tout_passager {
+    width: 115px !important;
+    margin: 5px 5px !important;
+}
+
+
+/* end class button add of reservation  passagers*/
+
+
+/* start class button voir ma reserve*/
+
+.btn_voir_ma_reserve {
+    margin: 0px 8px !important;
+}
+
+
+/* end class button voir ma reserve*/
+
+td>a>i {
+    color: #0b0b0b!important;
+}
+
+#passager_plus {
+    margin-right: 8px !important;
+}
+/*===========================   vol  ======================================*/
+.bg_btn_add_vol {
+    width: 60px !important;
+    margin: 5px 5px !important;
+}
+.td_table_vol{
+    font-size: 12px !important;
+}
+
+/*==================================page reservation de admin======================================*/
+
+.table-responsive {
+    overflow: auto !important;
+    height: 400px !important;
+}
+.table-responsive thead th {
+    position: sticky !important;
+    top: -1px !important;
+    z-index: 1 !important;
+    background: #e9ecef !important;
+}
+tbody, td, tfoot, th, thead, tr  {height: 54px !important;}
+.table>tbody {
+    vertical-align: middle !important;
+}
